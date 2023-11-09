@@ -4,7 +4,7 @@ const path = require("path");
 const { v4: uuidv4 } = require("uuid");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 app.use(express.json());
