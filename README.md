@@ -24,6 +24,8 @@ npm install
 
 npm run start
 after running server go to localhost:3000
+Can be accessed here:
+https://mk10100-note-taking-app-25f8d44beca5.herokuapp.com/
 
 ## Contributing
 
